@@ -1,0 +1,83 @@
+.contact {
+  padding: 80px 8%;
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.subtitle {
+  color: #2563eb;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  font-size: 40px;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #4b5563;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.form {
+  background-color: #f8fafc;
+  padding: 35px;
+  border-radius: 12px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.inputGroup label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
